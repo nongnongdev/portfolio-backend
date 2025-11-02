@@ -1,4 +1,4 @@
-package com.nongnogdev.portfolio;
+package com.nongnongdev.portfolio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

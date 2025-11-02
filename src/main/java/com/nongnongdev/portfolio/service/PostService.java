@@ -1,7 +1,7 @@
-package com.nongnogdev.portfolio.service;
+package com.nongnongdev.portfolio.service;
 
-import com.nongnogdev.portfolio.domain.Post;
-import com.nongnogdev.portfolio.repository.PostRepository;
+import com.nongnongdev.portfolio.domain.Post;
+import com.nongnongdev.portfolio.repository.PostRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

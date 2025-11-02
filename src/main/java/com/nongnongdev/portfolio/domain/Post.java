@@ -1,4 +1,4 @@
-package com.nongnogdev.portfolio.domain;
+package com.nongnongdev.portfolio.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;

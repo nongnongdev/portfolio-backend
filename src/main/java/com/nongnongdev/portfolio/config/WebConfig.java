@@ -1,4 +1,4 @@
-package com.nongnogdev.portfolio.config;
+package com.nongnongdev.portfolio.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,9 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://localhost:3000")
+                        .allowedOrigins(
+                                "http://localhost:3000",
+                                "http://my-portfolio-frontend-leedahoon.s3-website-ap-southeast-2.amazonaws.com")
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
         };

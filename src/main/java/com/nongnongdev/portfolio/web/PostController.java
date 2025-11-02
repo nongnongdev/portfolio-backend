@@ -1,7 +1,7 @@
-package com.nongnogdev.portfolio.web;
+package com.nongnongdev.portfolio.web;
 
-import com.nongnogdev.portfolio.domain.Post;
-import com.nongnogdev.portfolio.service.PostService;
+import com.nongnongdev.portfolio.domain.Post;
+import com.nongnongdev.portfolio.service.PostService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
